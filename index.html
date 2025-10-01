@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Домашняя работа номер 2 по WEB</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="bg-success">
+      <div class="container">
+        <div
+          class="d-flex flex-column flex-md-row align-items-center justify-content-between py-3"
+        >
+          <div class="logo mb-3 mb-md-0">
+            <img
+              src="Img/Громофон.jpg"
+              alt="Логотип"
+              class="img-fluid"
+              style="width: 55px; height: 55px"
+            />
+          </div>
+          <div class="site-title mb-3 mb-md-0">
+            <h1 class="h4 text-white mb-0">WEB домашка</h1>
+          </div>
+          <nav class="menu d-flex flex-column flex-md-row gap-2">
+            <a
+              href="index.html"
+              class="text-white text-decoration-none px-2 py-1 rounded bg-success bg-opacity-25"
+              >Главная</a
+            >
+            <a
+              href="#"
+              class="text-white text-decoration-none px-2 py-1 rounded bg-success bg-opacity-25"
+              >О нас</a
+            >
+            <a
+              href="#"
+              class="text-white text-decoration-none px-2 py-1 rounded bg-success bg-opacity-25"
+              >Контакты</a
+            >
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="container my-4">
+      <h1 id="Оглавление" class="mb-4">Домашняя работа по WEB</h1>
+
+      <div class="row g-4">
+        <section class="col-12 col-lg-8">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h2 class="card-title h4 mb-3">
+                Маркированный список гиперссылок
+              </h2>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="http://kubsu.ru/" class="text-decoration-none"
+                    >абсолютная гиперссылка на сайт kubsu.ru</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="https://kubsu.ru/" class="text-decoration-none"
+                    >абсолютная гиперссылка на сайт kubsu.ru (https)</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="Img/image.jpg">
+                    <img
+                      src="Img/image.jpg"
+                      alt="picture"
+                      class="img-fluid"
+                      style="max-width: 224px; height: auto"
+                    />
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="/internalPage.html" class="text-decoration-none"
+                    >Сокращённая ссылка на внутреннюю страницу</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="/" class="text-decoration-none"
+                    >Сокращённая ссылка на главную страницу</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="#Оглавление" class="text-decoration-none"
+                    >ссылка на фрагмент текущей страницы (оглавление)</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="https://clck.ru/3PDgZr?ВУЗ=КубГУ&Факультет=ФКТиПМ&Направление=Моаис"
+                    class="text-decoration-none"
+                    >Ссылка с тремя параметрами</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="page.html?id=1" class="text-decoration-none"
+                    >Ссылка с параметром id в URL</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="currentCatalog.html" class="text-decoration-none"
+                    >Относительная ссылка в текущем каталоге</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="about/page.html" class="text-decoration-none"
+                    >Относительная ссылка в каталоге about</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="../page.html" class="text-decoration-none"
+                    >Относительная ссылка уровнем выше</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="../../page.html" class="text-decoration-none"
+                    >Относительная ссылка двумя уровнями выше</a
+                  >
+                </li>
+                <li class="mb-2">
+                  Контекстная
+                  <a href="page.html" class="text-decoration-none">ссылка</a> в
+                  тексте абзаца
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="https://example.com/page#section"
+                    class="text-decoration-none"
+                    >Ссылка на фрагмент стороннего сайта</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <img
+                    src="Img/chamomile.jpg"
+                    alt="image"
+                    class="img-fluid"
+                    style="max-width: 300px; height: auto"
+                    usemap="#myMap"
+                  />
+                  <map name="myMap">
+                    <area
+                      shape="rect"
+                      coords="0,0,154,100"
+                      href="chamomile.html?id=1"
+                      alt="Прямоугольная область"
+                    />
+                    <area
+                      shape="circle"
+                      coords="201,52,28"
+                      href="chamomile.html?id=2"
+                      alt="Круглая область"
+                    />
+                  </map>
+                </li>
+                <li class="mb-2">
+                  <a href="" class="text-decoration-none"
+                    >Ссылка с пустым href</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a class="text-decoration-none">Ссылка без href</a>
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="link.html"
+                    rel="nofollow"
+                    class="text-decoration-none"
+                    >Ссылка запрещена для поисковиков</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <a href="ind.html" rel="noindex" class="text-decoration-none"
+                    >Ссылка запрещена для индексации</a
+                  >
+                </li>
+                <li class="mb-2">
+                  <ol>
+                    <li>
+                      <a
+                        href="site1.html"
+                        title="Первая ссылка"
+                        class="text-decoration-none"
+                        >Первая ссылка</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="site2.html"
+                        title="Вторая ссылка"
+                        class="text-decoration-none"
+                        >Вторая ссылка</a
+                      >
+                    </li>
+                    <li>
+                      <a
+                        href="site3.html"
+                        title="Третья ссылка"
+                        class="text-decoration-none"
+                        >Третья ссылка</a
+                      >
+                    </li>
+                  </ol>
+                </li>
+                <li class="mb-2">
+                  <a
+                    href="ftp://user:password@ftp.example.com/file.txt"
+                    class="text-decoration-none"
+                    >Ссылка на FTP файл с авторизацией</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="col-12 col-lg-4">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h2 class="card-title h4 mb-3">Таблица</h2>
+              <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                  <thead class="table-success">
+                    <tr>
+                      <th>Язык программирования</th>
+                      <th>Год создания</th>
+                      <th>Разработчики</th>
+                      <th>Популярность (на 2025 год)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Pascal</td>
+                      <td>1970</td>
+                      <td>Никлаус Вирт</td>
+                      <td>Низкая</td>
+                    </tr>
+                    <tr>
+                      <td>Java</td>
+                      <td>1995</td>
+                      <td>Sun Microsystems, Oracle, Джеймс Гослинг</td>
+                      <td>Высокая</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="2">C/C++</td>
+                      <td>1972</td>
+                      <td>Bell Labs, Деннис Ритчи, Кен Томпсон</td>
+                      <td>Высокая</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                        В 1985 был разработан Бьёрном Страуструпом
+                      </td>
+                      <td>Высокая</td>
+                    </tr>
+                    <tr>
+                      <td>Go</td>
+                      <td>2009</td>
+                      <td>Google, Роб Пайк, Кен Томпсон</td>
+                      <td>Средняя</td>
+                    </tr>
+                    <tr>
+                      <td>Fortran</td>
+                      <td>1957</td>
+                      <td>IBM, Джон Бэкус</td>
+                      <td>Низкая</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="mt-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <h2 class="card-title h4 mb-3">Форма</h2>
+            <form action="/submit" method="post">
+              <div class="row g-3">
+                <div class="col-12 col-md-6">
+                  <label for="fio" class="form-label">ФИО</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fio"
+                    name="fio"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="phone" class="form-label">Телефон</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    pattern="[0-9]{10,15}"
+                    title="Введите номер телефона (только цифры, от 10 до 15 символов)"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="email" class="form-label">e-mail</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="col-12 col-md-6">
+                  <label for="birthdate" class="form-label"
+                    >Дата рождения</label
+                  >
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="birthdate"
+                    name="birthdate"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Пол</label>
+                  <div class="d-flex gap-3">
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        id="male"
+                        name="gender"
+                        value="male"
+                        required
+                      />
+                      <label class="form-check-label" for="male">Мужской</label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="female"
+                        required
+                      />
+                      <label class="form-check-label" for="female"
+                        >Женский</label
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <label for="language" class="form-label"
+                    >Любимый язык программирования</label
+                  >
+                  <select
+                    class="form-select"
+                    id="language"
+                    name="language"
+                    multiple
+                    size="5"
+                    required
+                  >
+                    <option value="pascal">Pascal</option>
+                    <option value="c">C</option>
+                    <option value="cpp">C++</option>
+                    <option value="javascript">JavaScript</option>
+                    <option value="php">PHP</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                    <option value="haskel">Haskel</option>
+                    <option value="clojure">Clojure</option>
+                    <option value="prolog">Prolog</option>
+                    <option value="scala">Scala</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="bio" class="form-label">Биография</label>
+                  <textarea
+                    class="form-control"
+                    id="bio"
+                    name="bio"
+                    rows="3"
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="agreement"
+                      name="agreement"
+                      required
+                    />
+                    <label class="form-check-label" for="agreement"
+                      >С контрактом ознакомлен(а)</label
+                    >
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-success">
+                    Сохранить
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-light py-3 mt-auto">
+      <div class="container">
+        <div class="text-center">
+          <p class="mb-1">&copy; Постричев Дмитрий, 2025</p>
+          <p class="mb-0">Разработка пользовательского Web-интерфейса</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

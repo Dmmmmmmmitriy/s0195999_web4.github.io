@@ -1,0 +1,38 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  color: #231818e8;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.links-section a {
+  color: #2060cf;
+  text-decoration: none;
+}
+
+.links-section a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  border: none;
+}
+
+.table th {
+  background-color: #50923f;
+  color: white;
+}
+
+.links-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .menu a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
